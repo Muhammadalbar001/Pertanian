@@ -5,6 +5,7 @@
 package diagnosa;
 
 import CRUD.database;
+import gui.FrameUtama;
 
  
 /**
@@ -18,8 +19,8 @@ import CRUD.database;
 public class Main {
     public static void main(String[] args) {
 // UJI
-
-        database dbConnect = new database();
+         new FrameUtama(). setVisible(true);
+//        database dbConnect = new database();
         
 //        dbConnect.simpanUji("2210010359", "Muhammad Alfin", "085435662716", "Jl.Kecubung");
 //        dbConnect.ubahUji("2210010359", "Muhammad Albar", "083141886688", "Sungai Jingah");
@@ -31,7 +32,7 @@ public class Main {
 //        dbConnect.simpanDetailKonsultasi(2, 001, "Busuk Akar", "Jamur");
 //        dbConnect.ubahDetailKonsultasi(1, 99, "pusing", "Migran");
 //        dbConnect.hapusDetailKonsultasi("1", "", "", "");
-        dbConnect.dataDetailKonsultasi();
+//        dbConnect.dataDetailKonsultasi();
 //        dbConnect.cariDetailKonsultasi(1);
 
 // KONSULTASI
